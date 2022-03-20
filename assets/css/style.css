@@ -10,34 +10,37 @@
 html, body{
     width: 100%;
     height: 100%;
-    background-color: hsl(278, 85%, 46%);
+    background-color:#3854E2;
+    min-width: 320px;
+    min-height: 800px;
 }
 
 header {
-    
     height: 300px;
     width: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 header h1{
     padding: 5rem;
-    color: #deec18;
+    background-color:blueviolet ;
+    color: #fff;
     font-size: 4rem;
     text-shadow: .1rem .1rem #901cd3e8;   
 }
 
 h2{
     padding: 1rem;
-    color: #deec18;
+    color: #fff;
     font-size: 1.3rem;
     text-shadow: .1rem .1rem #901cd3e8;
     text-align: center;   
 }
 h3{
     padding: 1rem;
-    color: #deec18;
+    color: #fff;
     font-size: 1.3rem;
     text-shadow: .1rem .1rem #901cd3e8;
     text-align: center; 
@@ -50,6 +53,7 @@ section#infos{
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    
 }
 img{
     align-items: center;
@@ -60,7 +64,7 @@ button{
     width: 6em;
     border: none;
     color:white;
-    background-color: rgb(31, 58, 4);
+    background-color:blueviolet
 }
 
 
